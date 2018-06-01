@@ -1,0 +1,14 @@
+.box{
+width: 100%;
+display: block;
+margin: 0px auto;
+height: auto;
+text-align: center;
+}
+
+.image {
+    background: url('http://pluspng.com/img-png/volkswagen-group-logo-vector-png-open-1000.png') no-repeat center center fixed; 
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+}

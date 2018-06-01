@@ -1,0 +1,39 @@
+<form #signUpForm="ngForm" (ngSubmit) = "onSubmit()">
+
+  <div class="form-group">
+    <input type="email" placeholder="Your email"
+    id="email"
+    ngModel 
+    name="email"
+    email
+    class="form-control"
+    #email = "ngModel">
+    <br>
+    <span class ="help-lock" *ngIf = "!email.valid && email.touched" >Please enter valid email</span>
+    <br>
+    <input type="password" placeholder="Your password"
+    id="password"
+    name="password"
+    ngModel 
+    required
+    #password="ngModel">
+    <br>
+    <span class ="help-lock" *ngIf = "!password.valid && password.touched" >Please enter password</span>
+    <br>
+    <select name="subscription"
+    id="subscription"
+    [ngModel] = "defaultSuscription"
+    class = "form-control">
+
+    <option *ngFor = "let subscription of subscriptions"
+    [value] = "subscription"> 
+    {{subscription}}
+    </option>
+    
+    </select>
+
+  </div>
+  <br>
+
+  <button type="submit">Submit</button>
+</form>

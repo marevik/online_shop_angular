@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(145, 143, 143);
+    
+}
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.inf_box{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.street_inf{
+
+    margin-left: 15%;
+    padding-left: 20%;   
+}
+
+.phone_inf{
+    margin-left: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.hr80{
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+.overlay {
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.modal {
+    display: none;
+    width: 50%;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    background-color: silver;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 11;
+    background-color: rgb(59, 59, 59);
+}
+
+.loginBlock {
+    width: 20%;
+    height: auto;
+    padding:5% 20% ;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: rgb(59, 59, 59);
+    margin-bottom: 20px;
+}
+
+.reg_area{
+    display: flex;
+
+}
+/* 
+.userStatusBlock {
+    height: 20px;
+    color: silver;
+    text-align: center;
+} */
+/* 
+#Login{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#Password{
+    width: 100%;
+    margin: 0 auto;
+}
+
+ .maps{
+    transform: skewY(2deg);
+} */ 
+
+
+.leadership{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.login_text{
+    color:white;
+    padding: 20px auto;
+    font-style: italic;
+    font-size: 1.4em;
+}
+
+.register_text{
+    color:white;
+    padding: 20px auto;
+    font-style: italic;
+    font-size: 1.4em;
+}
+
+.text_choose{
+    color: white;
+    margin: 0 auto;
+    font-style: italic;
+    font-size: 1.7em;
+    padding-bottom: 40px;
+}
+
+.login_area{
+    padding-right: 50px;
+}
+
+.register_area{
+    padding-left: 20px;
+}

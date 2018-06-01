@@ -1,0 +1,35 @@
+h1{
+    margin: 0 auto;
+}
+
+body{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+
+ 
+img{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.information{
+    width: 60%;
+    margin: 20px auto;
+    padding-top: 20px;
+}
+
+.items_title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.items_price{
+    margin: 10px 0;
+}
+
+table{
+    margin: 0 auto;
+    border: 2px solid grey;
+}

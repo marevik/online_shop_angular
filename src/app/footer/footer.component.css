@@ -1,0 +1,58 @@
+.footer_background {
+    font-size: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_navigation a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.footer_navigation{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.all_rights_reserved {
+   font-size: auto;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 10%;
+    color: white;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    margin: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+footer{
+    background: rgba(0,0,0,.7);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.admin_btn{
+    color: white;
+    border: 0;
+}
+
+address{
+    color: white;
+}
+
+address a{
+    text-decoration: none;
+    color: white;
+}

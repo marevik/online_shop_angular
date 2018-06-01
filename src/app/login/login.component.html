@@ -1,0 +1,27 @@
+
+<form #signUpForm="ngForm" (ngSubmit) = "onSubmit()">
+
+  <div class="form-group">
+    <input type="email" placeholder="Your email"
+    id="email"
+    ngModel 
+    name="email"
+    email
+    class="form-control"
+    #email = "ngModel">
+    <br>
+    <span class ="help-lock" *ngIf = "!email.valid && email.touched" >Please enter valid email</span>
+    <br>
+    <input type="password" placeholder="your password"
+    id="password"
+    name="password"
+    ngModel 
+    required
+    #password="ngModel">
+    <br>
+    <span class ="help-lock" *ngIf = "!password.valid && password.touched" >Please enter password</span>
+    <br>
+  </div>
+
+  <button type="submit">Submit</button>
+</form>

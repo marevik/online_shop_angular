@@ -1,0 +1,35 @@
+.wrap{
+    display: flex;    
+    width: 100%;
+    max-height: 30px;
+    justify-content: flex-start;
+    text-align: center;
+    margin: 0 auto ;
+}
+
+.contact{
+    background: blueviolet;
+    color: white;
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    padding-left: 5%;    
+}
+
+.buttons {
+    background-color: blueviolet;
+    color: black;
+    width: 75%;
+    height: auto;
+}
+
+.btn_add{
+    padding: 5px 10px;
+    background-color: white;
+    margin-right: 2%;
+}
+.btn_dell{
+    padding: 5px 10px;
+    background-color: white;
+    margin-right: 5%;
+}
